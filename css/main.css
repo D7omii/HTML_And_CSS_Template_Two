@@ -564,12 +564,45 @@ header nav .form i {
 .video .text {
     width: 100%;
     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    padding: 50px;
+    background-color: var(--transparent-color);
+    color: white;
+    text-align: center;
 }
 
-.video .text h2 {}
+.video .text h2 {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
 
-.video .text p {}
+.video .text p {
+    margin-bottom: 20px;
+}
 
-.video .text button {}
+.video .text button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+@media (max-width: 767px) {
+    .video .text {
+        padding: 30px;
+    }
+
+    .video .text h2 {
+        font-size: 24px;
+        line-height: 1.15;
+    }
+}
 
 /* End Video */
