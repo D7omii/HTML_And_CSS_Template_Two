@@ -1049,11 +1049,6 @@ header nav .form i {
     position: relative;
     width: 500px;
     max-width: 100%;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
 }
 
 .subscribe form i {
